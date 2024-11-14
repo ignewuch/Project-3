@@ -1,0 +1,136 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Times+New+Roman&display=swap');
+
+/* css reset (can be added to reset.css) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, Arial, sans-serif; /* primary and fallback fonts */
+    background-color: #003366; /* dark blue background */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+    color: #000;
+}
+
+#page-wrapper {
+    max-width: 100%; /* use 100% width for responsiveness */
+    margin: 0 auto;
+    background-color: #f0f0f0; /* light grey background */
+    border: 10px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%; /* responsive width */
+}
+
+header, footer {
+    text-align: center; /* center align the header and footer */
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* specific change to top heading number and email (assuming it's in a header) */
+header h2, header p {
+    color: #003366; /* change to dark blue for number and email */
+}
+
+h2 {
+    font-size: 2.5em; /* use relative size */
+    color: #003366; /* dark blue headers */
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.6em; /* slightly smaller heading */
+    color: #003366; /* dark blue headers */
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* centered horizontal navigation */
+nav#main-nav {
+    text-align: center;
+    background-color: #003366;
+    padding: 10px 0;
+}
+
+nav#main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* center the nav links */
+}
+
+nav#main-nav ul li {
+    margin: 0 15px;
+}
+
+nav#main-nav ul li a {
+    display: block;
+    background-color: grey;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 0.5em 1.2em; /* use relative units */
+}
+
+nav#main-nav ul li a:hover {
+    background-color: white;
+    color: grey;
+    border-radius: 40px;
+}
+
+#content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#main-content {
+    flex: 1;
+    margin-right: 2%; /* adjusted margin */
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1.5em;
+    background-color: #fff;
+    position: relative;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+#clubs-skills {
+    width: 100%; /* make this responsive */
+    margin-top: 2em;
+    float: left;
+}
+
+#clubs-skills h3 {
+    font-size: 1.2em;
+    color: #003366;
+}
+
+#clubs-skills ul {
+    font-size: 1.1em;
+}
+
+#clearfix {
+    clear: both; /* clear floats */
+}
+
+
+
+
